@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/app.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="">Logo</a>
+        </div>
+        <ul class="navbar__links">
+          <li class="active"><a href="#">Hola</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Hablemos</a></li>
+        </ul>
+        <button class="btn btn--green">Currículum</button>
+      </nav>
+      <div class="hero">
+        <img src="./img/person.png" alt="perfil" class="hero__image" />
+        <div class="hero__description">
+          <h1>¡Hola a todos! <br><span>Soy Elisa</span></h1>
+          <p>
+            Una Frontend Developer que le encanta implementar diseños que
+            inspiran y atraen a las personas.
+          </p>
+          <div class="social">
+            <i class="social-icon">
+              <img src="./img/icon-phone.svg" alt="phone" />
+            </i>
+            <i class="social-icon">
+              <img src="./img/icon-important_mail.svg" alt="mail" />
+            </i>
+            <i class="social-icon">
+              <img src="./img/icon-instagram.svg" alt="instagram" />
+            </i>
+            <i class="social-icon">
+              <img src="./img/icon-twitter_squared.svg" alt="twitter" />
+            </i>
+          </div>
+        </div>
+        <!-- <div class="hero__contact">
+          <a href="#">
+            <img src="./img/icon-phone.svg" alt="phone" />
+            <span>(629) 555-0129</span>
+          </a>
+          <a href="#">
+            <img src="./img/icon-important_mail.svg" alt="email" />
+            <span>elisa@gmail.com</span>
+          </a>
+        </div> -->
+        
+      </div>
+    </header>
+    <main class="container">
+      <section class="projects">
+        <h2 class="projects__call-action">
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles
+        </h2>
+        <p class="projects__details">
+          Aquí hay algunos que me gustaría compartir.
+        </p>
+        <span class="arrow-down"></span>
+
+        <div class="projects__item project">
+          <div class="project__info-container left">
+            <h3 class="title">leonidasesteban.com</h3>
+            <p class="project__description">
+              Accede a más de 120 proyectos que te ayudarán a mejorar tus
+              habilidades como desarrollador Front-End.
+            </p>
+            <div class="project__buttons">
+              <button class="btn btn--green">Ver proyecto</button>
+              <button class="btn">
+                <span class="github-image"></span> Ver código
+              </button>
+            </div>
+          </div>
+          <figure class="right">
+            <img src="./img/img1.png" alt="leonidasesteban" />
+          </figure>
+          <div class="project__opinion-container bottom">
+            <i></i>
+            <div id="projects" class="project__opinion-content">
+              <img
+                src="./img/user1.png"
+                alt="leonidasesteban avatar"
+                class="project__opinion-avatar"
+              />
+              <blockquote>
+                "Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de
+                desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó
+                1,5 meses ".
+              </blockquote>
+              <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+            </div>
+          </div>
+        </div>
+        <div class="projects__item project">
+          <div class="project__info-container right">
+            <h3 class="title">MARVOL</h3>
+            <p class="project__description">
+              Es el sitio oficial de Marvol Entertainment. Explore películas,
+              personajes, cómics, programas de televisión, videos y más
+              oficiales de Marvol.
+            </p>
+            <div class="project__buttons">
+              <button class="btn btn--green">Ver proyecto</button>
+              <button class="btn">
+                <span class="github-image"></span> Ver código
+              </button>
+            </div>
+          </div>
+          <figure class="left">
+            <img src="./img/img2.png" alt="marvol" />
+          </figure>
+          <div class="project__opinion-container bottom">
+            <i></i>
+            <div id="projects" class="project__opinion-content">
+              <img
+                src="./img/user2.png"
+                alt="marvol avatar"
+                class="project__opinion-avatar"
+              />
+              <blockquote>
+                "Elisa ha superado mis expectativas desde el diseño hasta el
+                desarrollo".
+              </blockquote>
+              <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+            </div>
+          </div>
+        </div>
+        <div class="projects__item project">
+          <div class="project__info-container left">
+            <h3 class="title">NETNET</h3>
+            <p class="project__description">
+              Películas y series ilimitadas y mucho más. Disfruta donde quieras.
+              Cancela cuando quieras.
+            </p>
+            <div class="project__buttons">
+              <button class="btn btn--green">Ver proyecto</button>
+              <button class="btn">
+                <span class="github-image"></span> Ver código
+              </button>
+            </div>
+          </div>
+          <figure class="right">
+            <img src="./img/img3.png" alt="marvol" />
+          </figure>
+          <div class="project__opinion-container bottom">
+            <i></i>
+            <div id="projects" class="project__opinion-content">
+              <img
+                src="./img/user3.png"
+                alt="marvol avatar"
+                class="project__opinion-avatar"
+              />
+              <blockquote>
+                "Por primera vez en la historia de nuestra empresa, aparecimos
+                en todas las plataformas en las que trabajamos".
+              </blockquote>
+              <p>MARCO CORTEZ / NETNET</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <h2 class="title">Hablemos</h2>
+        <p class="contact__description">
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+
+        <form action="" class="form">
+          <div class="form-control">
+            <label class="form-label" for="name"
+              >Nombre Completo <span>*</span></label
+            >
+            <input
+              class="form-input"
+              type="text"
+              id="name"
+              placeholder="Juan Carlos"
+            />
+          </div>
+          <div class="form-control">
+            <label class="form-label" for="email"
+              >Correo Electrónico <span>*</span></label
+            >
+            <input
+              class="form-input"
+              type="email"
+              id="email"
+              placeholder="juancarlos@jcsoftdev.com"
+            />
+          </div>
+          <div class="form-control">
+            <label class="form-label" for="name">Mensaje</label>
+            <textarea
+              class="form-input"
+              name="message"
+              id="message"
+              rows="4"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--green d-block">
+            envia mensaje
+          </button>
+        </form>
+      </section>
+      <div class="social">
+        <i class="social-icon">
+          <img src="./img/icon-phone.svg" alt="phone" />
+        </i>
+        <i class="social-icon">
+          <img src="./img/icon-important_mail.svg" alt="mail" />
+        </i>
+        <i class="social-icon">
+          <img src="./img/icon-instagram.svg" alt="instagram" />
+        </i>
+        <i class="social-icon">
+          <img src="./img/icon-twitter_squared.svg" alt="twitter" />
+        </i>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="love">
+        Hecho con
+        <i><img src="./img/icon-heart_outline.svg" alt="heart" /> </i> de Elisa
+      </p>
+      <p class="rights">Copyright 2021 - Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
